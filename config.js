@@ -4,34 +4,35 @@ window.GeneralConfig = {
 
     baseToken: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
 
-    ironToken: "0x130F915b1ABC77506874Fcd63133cEB50a4bB6eD",
-    nftMaster: "0xD10d9b87D117416D1ca737081771976C0B87D356",
-    mockX21: "0x9675deffCE2723375687dDcBA059d800F9750F43",
-    mockX24: "0xB1c8d8A404a42298ad714Bb9dc6B60697f2c5B82",
-    mockX27: "0x6775473Cf80059Dd6cc028fc6ba3eCd3D0337191",
-    mockX29: "0x328873331566d1a4eCC5f943854dD7d7F2e664bD",
-    market: "0x7f92AA4b7da43Ea7f1Ec01276a671C147e62F074",
+    ironToken: "0xCAa09e779408Db48C6ad303e8ac93bfD0d89F753",
+    iisToken: "0x02aaf45D00955521F2Bfc74fD9f4Bc756773E65E",
+    market: "0xFaE370868fe79211dF4d2B020B35AA3818aee41e",
 
-    price:0.1,
+    nftMaster: "0xd9595710d6e6F786C89E0Ef4436A73e9d3bC41B9",
+    mockX21: "0xe696B51843CdE9110a3164b1bdb099E09FDc9d92",
+    mockX24: "0x031d9d79C62769BF0B6fEdA903090B476811073b",
+    mockX27: "0x319Ea1B4F354f7E8030abF67eD8DA998FdaAeF51",
+    mockX29: "0xa4152c13003b3f7f28D83c0831d4E8052FcA249D",
 
+    price: 0.1,
 
-    // onlineChainId: '0x61',
-    // chainName: 'Binance Smart Chain - Testnet',
-    // nativeCurrency: {
-    //     name: 'Binance Smart Chain Native Token',
-    //     symbol: 'tBNB',
-    //     decimals: 18
-    // },
-    // rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545'],
-    // blockExplorerUrls: ['https://testnet.bscscan.com']
-
-    onlineChainId: '0x38',
-    chainName: 'Binance Smart Chain Mainnet',
+    onlineChainId: '0x61',
+    chainName: 'Binance Smart Chain - Testnet',
     nativeCurrency: {
         name: 'Binance Smart Chain Native Token',
-        symbol: 'BNB',
+        symbol: 'tBNB',
         decimals: 18
     },
-    rpcUrls: ['https://bsc-dataseed1.binance.org'],
-    blockExplorerUrls: ['https://bscscan.com']
+    rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545'],
+    blockExplorerUrls: ['https://testnet.bscscan.com']
+
+    // onlineChainId: '0x38',
+    // chainName: 'Binance Smart Chain Mainnet',
+    // nativeCurrency: {
+    //     name: 'Binance Smart Chain Native Token',
+    //     symbol: 'BNB',
+    //     decimals: 18
+    // },
+    // rpcUrls: ['https://bsc-dataseed1.binance.org'],
+    // blockExplorerUrls: ['https://bscscan.com']
 };
