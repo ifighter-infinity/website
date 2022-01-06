@@ -16,23 +16,23 @@ window.GeneralConfig = {
 
     price: 0.1,
 
-    onlineChainId: '0x61',
-    chainName: 'Binance Smart Chain - Testnet',
-    nativeCurrency: {
-        name: 'Binance Smart Chain Native Token',
-        symbol: 'tBNB',
-        decimals: 18
-    },
-    rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545'],
-    blockExplorerUrls: ['https://testnet.bscscan.com']
-
-    // onlineChainId: '0x38',
-    // chainName: 'Binance Smart Chain Mainnet',
+    // onlineChainId: '0x61',
+    // chainName: 'Binance Smart Chain - Testnet',
     // nativeCurrency: {
     //     name: 'Binance Smart Chain Native Token',
-    //     symbol: 'BNB',
+    //     symbol: 'tBNB',
     //     decimals: 18
     // },
-    // rpcUrls: ['https://bsc-dataseed1.binance.org'],
-    // blockExplorerUrls: ['https://bscscan.com']
+    // rpcUrls: ['https://data-seed-prebsc-1-s1.binance.org:8545'],
+    // blockExplorerUrls: ['https://testnet.bscscan.com']
+
+    onlineChainId: '0x38',
+    chainName: 'Binance Smart Chain Mainnet',
+    nativeCurrency: {
+        name: 'Binance Smart Chain Native Token',
+        symbol: 'BNB',
+        decimals: 18
+    },
+    rpcUrls: ['https://bsc-dataseed1.binance.org'],
+    blockExplorerUrls: ['https://bscscan.com']
 };
